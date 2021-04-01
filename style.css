@@ -77,3 +77,34 @@ transform:scale(0.9);
 body {
 text-align:center;
 }
+
+
+.menu {
+position:fixed;
+background-color:white;
+width:100%;
+margin-top:0px;
+z-index:10;
+}
+a {
+text-decoration:none;
+color:crimson;
+text-shadow:2px 2px gainsboro;
+}
+.links:hover {
+font-size:25px;
+text-decoration:underline;
+}
+#contact {
+background-color:firebrick;
+}
+.contact_1 a {
+color:white;
+text-shadow:none;
+}
+.contact_1 h3 {
+display:inline;
+}
+#contact iframe {
+width:100%;
+}
